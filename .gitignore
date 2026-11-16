@@ -1,0 +1,5 @@
+﻿# 预览/临时产物，不进仓库
+_preview.html
+_*.html
+Thumbs.db
+desktop.ini

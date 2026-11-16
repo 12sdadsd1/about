@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- ① 浏览器标签页上的字，和分享出去时的标题 -->
+  <title>柠柒.</title>
+  <meta name="description" content="柠柒. 的个人主页 —— 江苏 · 学生 · 我的世界 / 卡拉比丘">
+  <meta name="author" content="柠柒.">
+
+  <!-- ② 分享到 QQ / 微信 / Discord 时的卡片信息。
+       部署到正式域名之后，把下面 og:image 和 og:url 换成完整网址
+       （例如 https://你的域名/img/og.png），否则有些平台抓不到图。 -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="柠柒.">
+  <meta property="og:title" content="柠柒.">
+  <meta property="og:description" content="江苏 · 学生 · 我的世界 / 卡拉比丘">
+  <meta property="og:image" content="img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- ③ 小图标 -->
+  <link rel="icon" type="image/png" sizes="64x64" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 背景：两团很淡的光斑，纯装饰，读屏软件会忽略它 -->
+  <div class="bg" aria-hidden="true">
+    <span class="blob blob--a"></span>
+    <span class="blob blob--b"></span>
+  </div>
+
+  <main class="page" id="main">
+    <!-- 页面内容由 data.js + app.js 生成。改内容请改 data.js -->
+    <div id="app"></div>
+
+    <!-- 万一浏览器禁用了 JS，至少还能看到是谁 -->
+    <noscript>
+      <div class="fallback">
+        <h1>柠柒.</h1>
+        <p>ʸᵒᵘ ᵃʳᵉ ᵃˢ ʳᵒᵐᵃⁿᵗᶦᶜ ᵃˢ ᵗʰᵉ ˢᵗᵃʳ⋅</p>
+        <p>江苏 · 学生 · 我的世界 / 卡拉比丘</p>
+      </div>
+    </noscript>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
